@@ -10,16 +10,21 @@ def library():
         print("3. Issue Book")
         print("4. Return Book")
         print("5. Exit")
+
         choice = int(input("Enter your choice: "))
-        
-        if choice==1:   add()
-        elif choice==2: show()
-        elif choice==3: issue()
-        elif choice==4: return_book()
-        elif choice==5: 
-            print("Thank you")
+
+        if choice == 1:
+            add()
+        elif choice == 2:
+            show()
+        elif choice == 3:
+            issue()
+        elif choice == 4:
+            return_book()
+        elif choice == 5:
+            print("thank you have a nice greatful day")
             break
         else:
             print("Invalid choice")
-            
+
 library()
