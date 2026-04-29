@@ -1,7 +1,7 @@
-from add_books import add
-from issue_book import issue
-from show_books import show
-from return_book import return_book
+from Addbooks import Addbooks
+from Issue import Issue
+from showbooks import showbooks
+from Return import Return
 
 def library():
     while True:
@@ -14,13 +14,13 @@ def library():
         choice = int(input("Enter your choice: "))
 
         if choice == 1:
-            add()
+            Addbooks()
         elif choice == 2:
-            show()
+            showbooks()
         elif choice == 3:
-            issue()
+            Issue()
         elif choice == 4:
-            return_book()
+            Return()
         elif choice == 5:
             print("thank you have a nice greatful day")
             break
